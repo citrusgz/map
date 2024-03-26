@@ -40,10 +40,10 @@ document.addEventListener("DOMContentLoaded", function () {
     // se forem as bolinhas das cidades não permito seleção
     if (e.target.nodeName === "path") {
       state.classOfElements =
-        e.srcElement.attributes[0].value === "st21" ||
-        e.srcElement.attributes[0].value === "st4"
+        e.target.attributes[0].value === "st21" ||
+        e.target.attributes[0].value === "st4"
           ? null
-          : e.srcElement.attributes[0].value;
+          : e.target.attributes[0].value;
 
       if (state.classOfElements) {
         var todasAsRegioes = document.querySelectorAll("path");
@@ -90,5 +90,28 @@ document.addEventListener("DOMContentLoaded", function () {
       });
       btnWrapper.setAttribute("hidden", "hidden");
     });
+  });
+
+  // ao pressionar qualquer tecla, a caixa de botões se fecha
+  document.addEventListener('keydown', function(event) {
+    if(event.key) {
+      btnWrapper.setAttribute("hidden", "hidden");
+
+      state.classOfElements = null;
+
+      var todasAsRegioes = document.querySelectorAll("path");
+      var todosOsPontos = document.querySelectorAll("circle");
+
+      Array.from(todasAsRegioes).forEach((el) => {
+        el.style.opacity = 1;
+      });
+
+      Array.from(todosOsPontos).forEach((el) => {
+        el.style.opacity = 1;
+      });
+
+      state.elementsStroked = false;
+      state.classOfElementsStroked = null;
+    }
   });
 });
