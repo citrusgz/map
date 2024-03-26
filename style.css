@@ -1,0 +1,215 @@
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#button-wrapper {
+  position: fixed;
+  width: 20rem;
+  height: 16rem;
+  margin-top: calc(50vh - 8rem);
+  margin-left: calc(50vw - 10rem);
+  background-color: white;
+  box-shadow: 0px 0px 91px 10px rgba(0, 0, 0, 1);
+  border-radius: 0.5rem;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  align-items: center;
+}
+
+.button-container p {
+    font-size: 20px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.buttons button {
+  width: 5rem;
+  height: 2rem;
+  border: none;
+  font-weight: bold;
+  border-radius: 0.375rem;
+  color: white;
+}
+
+#blueBtn {
+  background-color: #0072bc;
+}
+
+#redBtn {
+  background-color: #ed1c24;
+}
+
+.st0 {
+  fill: #838d83;
+  stroke: #4f535d;
+  stroke-width: 0.5;
+  stroke-linecap: square;
+  stroke-miterlimit: 2;
+}
+.st1 {
+  fill: #facdda;
+  stroke: #8b8f9e;
+  stroke-width: 0.5;
+  stroke-linecap: square;
+  stroke-miterlimit: 2;
+}
+.st2 {
+  fill: #7ca2b3;
+  stroke: #8b8f9e;
+  stroke-width: 0.5;
+  stroke-linecap: square;
+  stroke-miterlimit: 2;
+}
+.st3 {
+  fill: #9aca3c;
+  stroke: #8b8f9e;
+  stroke-width: 0.5;
+  stroke-miterlimit: 2;
+}
+.st4 {
+  fill: #ffffff;
+  stroke: #8b8f9e;
+  stroke-width: 0.5;
+  stroke-linecap: square;
+  stroke-miterlimit: 2;
+}
+.st5 {
+  fill: #ad731c;
+  stroke: #8b8f9e;
+  stroke-width: 0.5;
+  stroke-linecap: square;
+  stroke-miterlimit: 2;
+}
+.st6 {
+  fill: #f499b8;
+  stroke: #8b8f9e;
+  stroke-width: 0.5;
+  stroke-linecap: square;
+  stroke-miterlimit: 2;
+}
+.st7 {
+  fill: #d4e6ae;
+  stroke: #8b8f9e;
+  stroke-width: 0.5;
+  stroke-linecap: square;
+  stroke-miterlimit: 2;
+}
+.st8 {
+  fill: #9a2c30;
+  stroke: #8b8f9e;
+  stroke-width: 0.5;
+  stroke-linecap: square;
+  stroke-miterlimit: 2;
+}
+.st9 {
+  fill: #fff200;
+  stroke: #8b8f9e;
+  stroke-width: 0.5;
+  stroke-linecap: square;
+  stroke-miterlimit: 2;
+}
+.st10 {
+  fill: #e63c2c;
+  stroke: #8b8f9e;
+  stroke-width: 0.5;
+  stroke-linecap: square;
+  stroke-miterlimit: 2;
+}
+.st11 {
+  fill: #f89f6d;
+  stroke: #8b8f9e;
+  stroke-width: 0.5;
+  stroke-linecap: square;
+  stroke-miterlimit: 2;
+}
+.st12 {
+  fill: #c8c8cf;
+  stroke: #8b8f9e;
+  stroke-width: 0.5;
+  stroke-linecap: square;
+  stroke-miterlimit: 2;
+}
+.st13 {
+  fill: #9aca3c;
+  stroke: #8b8f9e;
+  stroke-width: 0.5;
+  stroke-linecap: square;
+  stroke-miterlimit: 2;
+}
+.st14 {
+  fill: #c6b35a;
+  stroke: #8b8f9e;
+  stroke-width: 0.5;
+  stroke-linecap: square;
+  stroke-miterlimit: 2;
+}
+.st15 {
+  fill: #76c5e4;
+  stroke: #8b8f9e;
+  stroke-width: 0.5;
+  stroke-linecap: square;
+  stroke-miterlimit: 2;
+}
+.st16 {
+  fill: #96d5ce;
+  stroke: #8b8f9e;
+  stroke-width: 0.5;
+  stroke-linecap: square;
+  stroke-miterlimit: 2;
+}
+.st17 {
+  fill: #baaed5;
+  stroke: #8b8f9e;
+  stroke-width: 0.5;
+  stroke-linecap: square;
+  stroke-miterlimit: 2;
+}
+.st18 {
+  fill: #00a94f;
+  stroke: #8b8f9e;
+  stroke-width: 0.5;
+  stroke-linecap: square;
+  stroke-miterlimit: 2;
+}
+.st19 {
+  fill: #00a995;
+  stroke: #8b8f9e;
+  stroke-width: 0.5;
+  stroke-linecap: square;
+  stroke-miterlimit: 2;
+}
+.st20 {
+  fill: #fed5a2;
+  stroke: #8b8f9e;
+  stroke-width: 0.5;
+  stroke-linecap: square;
+  stroke-miterlimit: 2;
+}
+.st21 {
+  stroke: #8b8f9e;
+}
+.st22 {
+  fill: #0072bc;
+  stroke: #8b8f9e;
+  stroke-width: 0.5;
+  stroke-linecap: square;
+  stroke-miterlimit: 2;
+}
+.st23 {
+  fill: #ed1c24;
+  stroke: #8b8f9e;
+  stroke-width: 0.5;
+  stroke-linecap: square;
+  stroke-miterlimit: 2;
+}
