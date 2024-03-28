@@ -1,6 +1,7 @@
 * {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 #button-wrapper {
@@ -23,7 +24,7 @@
 }
 
 .button-container p {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .buttons {
@@ -57,6 +58,7 @@
   stroke-linecap: square;
   stroke-miterlimit: 2;
 }
+
 .st1 {
   fill: #facdda;
   stroke: #8b8f9e;
@@ -64,6 +66,7 @@
   stroke-linecap: square;
   stroke-miterlimit: 2;
 }
+
 .st2 {
   fill: #7ca2b3;
   stroke: #8b8f9e;
@@ -71,12 +74,14 @@
   stroke-linecap: square;
   stroke-miterlimit: 2;
 }
+
 .st3 {
   fill: #9aca3c;
   stroke: #8b8f9e;
   stroke-width: 0.5;
   stroke-miterlimit: 2;
 }
+
 .st4 {
   fill: #ffffff;
   stroke: #8b8f9e;
@@ -84,6 +89,7 @@
   stroke-linecap: square;
   stroke-miterlimit: 2;
 }
+
 .st5 {
   fill: #ad731c;
   stroke: #8b8f9e;
@@ -91,6 +97,7 @@
   stroke-linecap: square;
   stroke-miterlimit: 2;
 }
+
 .st6 {
   fill: #f499b8;
   stroke: #8b8f9e;
@@ -98,6 +105,7 @@
   stroke-linecap: square;
   stroke-miterlimit: 2;
 }
+
 .st7 {
   fill: #d4e6ae;
   stroke: #8b8f9e;
@@ -105,6 +113,7 @@
   stroke-linecap: square;
   stroke-miterlimit: 2;
 }
+
 .st8 {
   fill: #9a2c30;
   stroke: #8b8f9e;
@@ -112,6 +121,7 @@
   stroke-linecap: square;
   stroke-miterlimit: 2;
 }
+
 .st9 {
   fill: #fff200;
   stroke: #8b8f9e;
@@ -119,6 +129,7 @@
   stroke-linecap: square;
   stroke-miterlimit: 2;
 }
+
 .st10 {
   fill: #e63c2c;
   stroke: #8b8f9e;
@@ -126,6 +137,7 @@
   stroke-linecap: square;
   stroke-miterlimit: 2;
 }
+
 .st11 {
   fill: #f89f6d;
   stroke: #8b8f9e;
@@ -133,6 +145,7 @@
   stroke-linecap: square;
   stroke-miterlimit: 2;
 }
+
 .st12 {
   fill: #c8c8cf;
   stroke: #8b8f9e;
@@ -140,6 +153,7 @@
   stroke-linecap: square;
   stroke-miterlimit: 2;
 }
+
 .st13 {
   fill: #9aca3c;
   stroke: #8b8f9e;
@@ -147,6 +161,7 @@
   stroke-linecap: square;
   stroke-miterlimit: 2;
 }
+
 .st14 {
   fill: #c6b35a;
   stroke: #8b8f9e;
@@ -154,6 +169,7 @@
   stroke-linecap: square;
   stroke-miterlimit: 2;
 }
+
 .st15 {
   fill: #76c5e4;
   stroke: #8b8f9e;
@@ -161,6 +177,7 @@
   stroke-linecap: square;
   stroke-miterlimit: 2;
 }
+
 .st16 {
   fill: #96d5ce;
   stroke: #8b8f9e;
@@ -168,6 +185,7 @@
   stroke-linecap: square;
   stroke-miterlimit: 2;
 }
+
 .st17 {
   fill: #baaed5;
   stroke: #8b8f9e;
@@ -175,6 +193,7 @@
   stroke-linecap: square;
   stroke-miterlimit: 2;
 }
+
 .st18 {
   fill: #00a94f;
   stroke: #8b8f9e;
@@ -182,6 +201,7 @@
   stroke-linecap: square;
   stroke-miterlimit: 2;
 }
+
 .st19 {
   fill: #00a995;
   stroke: #8b8f9e;
@@ -189,6 +209,7 @@
   stroke-linecap: square;
   stroke-miterlimit: 2;
 }
+
 .st20 {
   fill: #fed5a2;
   stroke: #8b8f9e;
@@ -196,9 +217,11 @@
   stroke-linecap: square;
   stroke-miterlimit: 2;
 }
+
 .st21 {
   stroke: #8b8f9e;
 }
+
 .st24 {
   fill: #0072bc;
   stroke: #8b8f9e;
@@ -206,6 +229,7 @@
   stroke-linecap: square;
   stroke-miterlimit: 2;
 }
+
 .st23 {
   fill: #ed1c24;
   stroke: #8b8f9e;
