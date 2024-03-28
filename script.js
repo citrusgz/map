@@ -9,7 +9,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const buttonRed = document.getElementById("redBtn");
 
-  const btnWrapper = document.getElementById("button-wrapper");
+  const modal = document.getElementById("button-wrapper");
+
+  function ocultarModal() {
+    modal.setAttribute("hidden", "hidden");
+  }
+
+  function exibirModal() {
+    modal.removeAttribute("hidden");
+  }
 
   // em qualquer clique
   document.addEventListener("click", (e) => {
@@ -31,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // se o elemento clicado não fot path ou um dos botões oculto os botões e limpo a classe do elemento clicado
     if (e.target.nodeName !== "path" && e.target.nodeName !== "BUTTON") {
-      btnWrapper.setAttribute("hidden", "hidden");
+      ocultarModal();
 
       state.classOfElements = null;
     }
@@ -54,10 +62,10 @@ document.addEventListener("DOMContentLoaded", function () {
         });
 
         Array.from(todosOsPontos).forEach((el) => {
-            el.style.opacity = 0.3;
-          });
+          el.style.opacity = 0.3;
+        });
 
-        btnWrapper.removeAttribute("hidden");
+        exibirModal();
       }
     }
 
@@ -80,7 +88,7 @@ document.addEventListener("DOMContentLoaded", function () {
       Array.from(state.listOfst2Els).forEach((el) => {
         el.style.fill = "#0072bc";
       });
-      btnWrapper.setAttribute("hidden", "hidden");
+      ocultarModal();
     });
 
     // quando clicar no botão azum defino os elementos com a classe selecionada com a cor vermelha
@@ -88,14 +96,14 @@ document.addEventListener("DOMContentLoaded", function () {
       Array.from(state.listOfst2Els).forEach((el) => {
         el.style.fill = "#ed1c24";
       });
-      btnWrapper.setAttribute("hidden", "hidden");
+      ocultarModal();
     });
   });
 
   // ao pressionar qualquer tecla, a caixa de botões se fecha
-  document.addEventListener('keydown', function(event) {
-    if(event.key) {
-      btnWrapper.setAttribute("hidden", "hidden");
+  document.addEventListener("keydown", function (event) {
+    if (event.key) {
+      ocultarModal();
 
       state.classOfElements = null;
 
