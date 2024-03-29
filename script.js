@@ -1,15 +1,45 @@
-const state = {
-  classOfElements: null,
-  listOfEls: [],
-  elementsStroked: false,
-};
-
 document.addEventListener("DOMContentLoaded", function () {
+
+  const state = {
+    citySelected: null
+  };
+
   const buttonBlue = document.getElementById("blueBtn");
 
   const buttonRed = document.getElementById("redBtn");
 
   const modal = document.getElementById("button-wrapper");
+
+  const blockedRegions = ['st21', 'st4'];
+
+  function definirOpacidadeMapa(opacity) {
+    let todasAsRegioes = document.querySelectorAll("path");
+    let todosOsPontos = document.querySelectorAll("circle");
+
+    Array.from(todasAsRegioes).forEach((el) => {
+      el.style.opacity = opacity;
+    });
+
+    Array.from(todosOsPontos).forEach((el) => {
+      el.style.opacity = opacity;
+    });
+  }
+
+  function destacarRegiao(e) {
+    let citiesSelected = document.getElementsByClassName(e.target.attributes.class.value);
+
+    Array.from(citiesSelected).forEach((el) => {
+      el.style.opacity = 1;
+    });
+  }
+
+  function isRegion(e) {
+    return e.target.nodeName === "path";
+  }
+
+  function regionAllowedClick(e) {
+    return !blockedRegions.includes(e.target.attributes.class.value);
+  }
 
   function ocultarModal() {
     modal.setAttribute("hidden", "hidden");
@@ -19,107 +49,63 @@ document.addEventListener("DOMContentLoaded", function () {
     modal.removeAttribute("hidden");
   }
 
-  // em qualquer clique
+  function pintarCidadeSelecionada(color) {
+    state.citySelected.target.style.fill = color;
+  }
+
+  function isButton(e) {
+    return e.target.nodeName !== "BUTTON"
+  }
+
+  function haveSelectedCity() {
+    return state.citySelected !== null
+  }
+
   document.addEventListener("click", (e) => {
-    if (state.elementsStroked) {
-      state.elementsStroked = false;
-      state.classOfElementsStroked = null;
 
-      var todasAsRegioes = document.querySelectorAll("path");
-      var todosOsPontos = document.querySelectorAll("circle");
-
-      Array.from(todasAsRegioes).forEach((el) => {
-        el.style.opacity = 1;
-      });
-
-      Array.from(todosOsPontos).forEach((el) => {
-        el.style.opacity = 1;
-      });
+    if (haveSelectedCity()) {
+      definirOpacidadeMapa(1)
     }
 
-    // se o elemento clicado não fot path ou um dos botões oculto os botões e limpo a classe do elemento clicado
-    if (e.target.nodeName !== "path" && e.target.nodeName !== "BUTTON") {
+    if (!isRegion(e) && isButton(e)) {
+
+      state.citySelected = null;
+
       ocultarModal();
-
-      state.classOfElements = null;
     }
 
-    // se for um path exibo os botões e só seto os elementos se forem as cidades
-    // se forem as bolinhas das cidades não permito seleção
-    if (e.target.nodeName === "path") {
-      state.classOfElements =
-        e.target.attributes[0].value === "st21" ||
-        e.target.attributes[0].value === "st4"
-          ? null
-          : e.target.attributes[0].value;
-
-      if (state.classOfElements) {
-        var todasAsRegioes = document.querySelectorAll("path");
-        var todosOsPontos = document.querySelectorAll("circle");
-
-        Array.from(todasAsRegioes).forEach((el) => {
-          el.style.opacity = 0.3;
-        });
-
-        Array.from(todosOsPontos).forEach((el) => {
-          el.style.opacity = 0.3;
-        });
-
-        exibirModal();
-      }
+    if(!regionAllowedClick(e)) {
+      ocultarModal();
     }
 
-    // se houver uma classe habilitada para buscar elementos, pego os elementos e defino no state
-    if (state.classOfElements) {
-      state.listOfst2Els = document.getElementsByClassName(
-        state.classOfElements
-      );
+    if (isRegion(e) && regionAllowedClick(e)) {
+      state.citySelected = e;
 
-      Array.from(state.listOfst2Els).forEach((el) => {
-        el.style.opacity = 1;
-      });
+      definirOpacidadeMapa(0.3);
 
-      state.elementsStroked = true;
-      state.classOfElementsStroked = state.classOfElements;
+      exibirModal();
+
+      destacarRegiao(e);
     }
 
-    // quando clicar no botão azum defino os elementos com a classe selecionada com a cor azul
     buttonBlue.addEventListener("click", () => {
-      Array.from(state.listOfst2Els).forEach((el) => {
-        el.style.fill = "#0072bc";
-      });
+      pintarCidadeSelecionada("#0072bc");
       ocultarModal();
     });
 
-    // quando clicar no botão azum defino os elementos com a classe selecionada com a cor vermelha
     buttonRed.addEventListener("click", () => {
-      Array.from(state.listOfst2Els).forEach((el) => {
-        el.style.fill = "#ed1c24";
-      });
+      pintarCidadeSelecionada("#ed1c24");
       ocultarModal();
     });
   });
 
-  // ao pressionar qualquer tecla, a caixa de botões se fecha
   document.addEventListener("keydown", function (event) {
-    if (event.key) {
+    if (event.key === 'Escape') {
       ocultarModal();
 
-      state.classOfElements = null;
+      state.citySelected = null;
 
-      var todasAsRegioes = document.querySelectorAll("path");
-      var todosOsPontos = document.querySelectorAll("circle");
-
-      Array.from(todasAsRegioes).forEach((el) => {
-        el.style.opacity = 1;
-      });
-
-      Array.from(todosOsPontos).forEach((el) => {
-        el.style.opacity = 1;
-      });
-
-      state.elementsStroked = false;
-      state.classOfElementsStroked = null;
+      definirOpacidadeMapa(1);
     }
   });
 });
