@@ -1,0 +1,986 @@
+[
+  {
+    "id": "varzea-da-palma",
+    "newId": "Várzea da Palma"
+  },
+  {
+    "id": "tres-pontas",
+    "newId": "Três Pontas"
+  },
+  {
+    "id": "pirapora",
+    "newId": "Pirapora"
+  },
+  {
+    "id": "eloi-mendes",
+    "newId": "Elói Mendes"
+  },
+  {
+    "id": "manga",
+    "newId": "Manga"
+  },
+  {
+    "id": "espinosa",
+    "newId": "Espinosa"
+  },
+  {
+    "id": "jaiba",
+    "newId": "Jaíba"
+  },
+  {
+    "id": "januaria",
+    "newId": "Januária"
+  },
+  {
+    "id": "araguari",
+    "newId": "Araguari"
+  },
+  {
+    "id": "reduto",
+    "newId": "Reduto"
+  },
+  {
+    "id": "buritis",
+    "newId": "Buritis"
+  },
+  {
+    "id": "monte-azul",
+    "newId": "Monte Azul"
+  },
+  {
+    "id": "sao-joao-do-paraido",
+    "newId": "São João do Paraído"
+  },
+  {
+    "id": "janauba",
+    "newId": "Janaúba"
+  },
+  {
+    "id": "arinos",
+    "newId": "Aranãs"
+  },
+  {
+    "id": "rio-pardo-de-minas",
+    "newId": "Rio Pardo de Minas"
+  },
+  {
+    "id": "porteirinha",
+    "newId": "Porteirinha"
+  },
+  {
+    "id": "sao-francisco",
+    "newId": "São Francisco"
+  },
+  {
+    "id": "taiobeiras",
+    "newId": "Taiobeiras"
+  },
+  {
+    "id": "sao-joao-da-ponte",
+    "newId": "São João da Ponte"
+  },
+  {
+    "id": "pedra-azul",
+    "newId": "Pedra Azul"
+  },
+  {
+    "id": "almenara",
+    "newId": "Almenara"
+  },
+  {
+    "id": "unai",
+    "newId": "Unaí"
+  },
+  {
+    "id": "salinas",
+    "newId": "Salinas"
+  },
+  {
+    "id": "jacinto",
+    "newId": "Jacinto"
+  },
+  {
+    "id": "brasilia-de-minas",
+    "newId": "Brasília de Minas"
+  },
+  {
+    "id": "jequitinhonha",
+    "newId": "Jequitinhonha"
+  },
+  {
+    "id": "medina",
+    "newId": "Medina"
+  },
+  {
+    "id": "francisco-sa",
+    "newId": "Francisco Sá"
+  },
+  {
+    "id": "montes-claros",
+    "newId": "Montes Claros"
+  },
+  {
+    "id": "grao-mogol",
+    "newId": "Grão Mogol"
+  },
+  {
+    "id": "bonfinopolis-de-minas",
+    "newId": "Bonfinópolis de Minas"
+  },
+  {
+    "id": "coracao-de-jesus",
+    "newId": "Coração de Jesus"
+  },
+  {
+    "id": "aracuai",
+    "newId": "Araçuaí"
+  },
+  {
+    "id": "paracatu",
+    "newId": "Paracatu"
+  },
+  {
+    "id": "bocaiuva",
+    "newId": "Bocaiúva"
+  },
+  {
+    "id": "aguas-formosas",
+    "newId": "Águas Formosas"
+  },
+  {
+    "id": "joao-pinheiro",
+    "newId": "João Pinheiro"
+  },
+  {
+    "id": "turmalina",
+    "newId": "Turmalina"
+  },
+  {
+    "id": "novo-cruzeiro",
+    "newId": "Novo Cruzeiro"
+  },
+  {
+    "id": "minas-novas",
+    "newId": "Minas Novas"
+  },
+  {
+    "id": "carlos-chagas",
+    "newId": "Carlos Chagas"
+  },
+  {
+    "id": "teofilo-otoni",
+    "newId": "Teófilo Otoni"
+  },
+  {
+    "id": "diamantina",
+    "newId": "Diamantina"
+  },
+  {
+    "id": "nanuque",
+    "newId": "Nanuque"
+  },
+  {
+    "id": "capelinha",
+    "newId": "Capelinha"
+  },
+  {
+    "id": "vazante",
+    "newId": "Vazante"
+  },
+  {
+    "id": "itamarandiba",
+    "newId": "Itamarandiba"
+  },
+  {
+    "id": "buenopolis",
+    "newId": "Buenópolis"
+  },
+  {
+    "id": "presidente-olegario",
+    "newId": "Presidente Olegário"
+  },
+  {
+    "id": "itambacuri",
+    "newId": "Itambacuri"
+  },
+  {
+    "id": "tres-marias",
+    "newId": "Três Marias"
+  },
+  {
+    "id": "corinto",
+    "newId": "Corinto"
+  },
+  {
+    "id": "coromandel",
+    "newId": "Coromandel"
+  },
+  {
+    "id": "santa-maria-do-suacui",
+    "newId": "Santa Maria do Suaçuí"
+  },
+  {
+    "id": "patos-de-minas",
+    "newId": "Patos de Minas"
+  },
+  {
+    "id": "serro",
+    "newId": "Serro"
+  },
+  {
+    "id": "tapaciguara",
+    "newId": "Tapaciguara"
+  },
+  {
+    "id": "pecanha",
+    "newId": "Peçanha"
+  },
+  {
+    "id": "sabinopolis",
+    "newId": "Sabinópolis"
+  },
+  {
+    "id": "monte-carmelo",
+    "newId": "Monte Carmelo"
+  },
+  {
+    "id": "mantena",
+    "newId": "Mantena"
+  },
+  {
+    "id": "monte-alegre-de-minas",
+    "newId": "Monte Alegre de Minas"
+  },
+  {
+    "id": "governador-valadares",
+    "newId": "Governador Valadares"
+  },
+  {
+    "id": "campinopolis",
+    "newId": "Campinápolis"
+  },
+  {
+    "id": "canapolis",
+    "newId": "Canápolis"
+  },
+  {
+    "id": "uberlandia",
+    "newId": "Uberlândia"
+  },
+  {
+    "id": "conceicao-do-mato-dentro",
+    "newId": "Conceição do Mato Dentro"
+  },
+  {
+    "id": "guanhaes",
+    "newId": "Guanhães"
+  },
+  {
+    "id": "ituiutaba",
+    "newId": "Ituiutaba"
+  },
+  {
+    "id": "virginopolis",
+    "newId": "Virginópolis"
+  },
+  {
+    "id": "carmo-do-paranaiba",
+    "newId": "Carmo do Paranaíba"
+  },
+  {
+    "id": "santa-vitoria",
+    "newId": "Santa Vitória"
+  },
+  {
+    "id": "patrocinio",
+    "newId": "Patrocínio"
+  },
+  {
+    "id": "pompeu",
+    "newId": "Pompéu"
+  },
+  {
+    "id": "conselheiro-pena",
+    "newId": "Conselheiro Pena"
+  },
+  {
+    "id": "abaete",
+    "newId": "Abaeté"
+  },
+  {
+    "id": "acucena",
+    "newId": "Açuçena"
+  },
+  {
+    "id": "prata",
+    "newId": "Prata"
+  },
+  {
+    "id": "nova-ponte",
+    "newId": "Nova Ponte"
+  },
+  {
+    "id": "resplendor",
+    "newId": "Resplendor"
+  },
+  {
+    "id": "uberaba",
+    "newId": "Uberaba"
+  },
+  {
+    "id": "tarumirim",
+    "newId": "Tarumirim"
+  },
+  {
+    "id": "paraopeba",
+    "newId": "Paraopeba"
+  },
+  {
+    "id": "sao-gotardo",
+    "newId": "São Gotardo"
+  },
+  {
+    "id": "campina-verde",
+    "newId": "Campina Verde"
+  },
+  {
+    "id": "ibia",
+    "newId": "Ibiá"
+  },
+  {
+    "id": "dores-do-indaia",
+    "newId": "Dores do Indaiá"
+  },
+  {
+    "id": "sete-lagoas",
+    "newId": "Sete Lagoas"
+  },
+  {
+    "id": "coronel-fabriciano",
+    "newId": "Coronel Fabriciano"
+  },
+  {
+    "id": "inhapim",
+    "newId": "Inhapim"
+  },
+  {
+    "id": "ipatinga",
+    "newId": "Ipatinga"
+  },
+  {
+    "id": "aimores",
+    "newId": "Aimorés"
+  },
+  {
+    "id": "matozinhos",
+    "newId": "Matozinhos"
+  },
+  {
+    "id": "ipanema",
+    "newId": "Ipanema"
+  },
+  {
+    "id": "campos-altos",
+    "newId": "Campos Altos"
+  },
+  {
+    "id": "itabira",
+    "newId": "Itabira"
+  },
+  {
+    "id": "sacramento",
+    "newId": "Sacramento"
+  },
+  {
+    "id": "araxa",
+    "newId": "Araxá"
+  },
+  {
+    "id": "pitangui",
+    "newId": "Pitangui"
+  },
+  {
+    "id": "pedro-leopoldo",
+    "newId": "Pedro Leopoldo"
+  },
+  {
+    "id": "timoteo",
+    "newId": "Timóteo"
+  },
+  {
+    "id": "lagoa-santa",
+    "newId": "Lagoa Santa"
+  },
+  {
+    "id": "itapagipe",
+    "newId": "Itapagipe"
+  },
+  {
+    "id": "esmeralda",
+    "newId": "Esmeraldas"
+  },
+  {
+    "id": "iturama",
+    "newId": "Iturama"
+  },
+  {
+    "id": "caratinga",
+    "newId": "Caratinga"
+  },
+  {
+    "id": "luz",
+    "newId": "Luz"
+  },
+  {
+    "id": "vespasiano",
+    "newId": "Vespasiano"
+  },
+  {
+    "id": "santa-luzia",
+    "newId": "Santa Luzia"
+  },
+  {
+    "id": "caete",
+    "newId": "Caeté"
+  },
+  {
+    "id": "sabara",
+    "newId": "Sabará"
+  },
+  {
+    "id": "ribeirao-das-neves",
+    "newId": "Ribeirão das Neves"
+  },
+  {
+    "id": "conceicao-das-alagoas",
+    "newId": "Conceição das Alagoas"
+  },
+  {
+    "id": "cocais",
+    "newId": "Coração de Jesus"
+  },
+  {
+    "id": "joao-monlevade",
+    "newId": "João Monlevade"
+  },
+  {
+    "id": "belo-horizonte",
+    "newId": "Belo Horizonte"
+  },
+  {
+    "id": "nova-serrana",
+    "newId": "Nova Serrana"
+  },
+  {
+    "id": "frutal",
+    "newId": "Frutal"
+  },
+  {
+    "id": "contagem",
+    "newId": "Contagem"
+  },
+  {
+    "id": "betim",
+    "newId": "Betim"
+  },
+  {
+    "id": "raul-soares",
+    "newId": "Raul Soares"
+  },
+  {
+    "id": "santo-antonio-do-monte",
+    "newId": "Santo Antônio do Monte"
+  },
+  {
+    "id": "lagoa-da-prata",
+    "newId": "Lagoa da Prata"
+  },
+  {
+    "id": "santa-barbara",
+    "newId": "Santa Bárbara"
+  },
+  {
+    "id": "manhuacu",
+    "newId": "Manhuaçu"
+  },
+  {
+    "id": "bambui",
+    "newId": "Bambuí"
+  },
+  {
+    "id": "nova-lima",
+    "newId": "Nova Lima"
+  },
+  {
+    "id": "divinopolis",
+    "newId": "Divinópolis"
+  },
+  {
+    "id": "mateus-leme",
+    "newId": "Mateus Leme"
+  },
+  {
+    "id": "itauna",
+    "newId": "Itaúna"
+  },
+  {
+    "id": "ibirite",
+    "newId": "Ibirité"
+  },
+  {
+    "id": "sao-roque-de-minas",
+    "newId": "São Roque de Minas"
+  },
+  {
+    "id": "rio-casca",
+    "newId": "Rio Casca"
+  },
+  {
+    "id": "igarape",
+    "newId": "Igarapé"
+  },
+  {
+    "id": "alvinopolis",
+    "newId": "Alvinópolis"
+  },
+  {
+    "id": "lajinha",
+    "newId": "Lajinha"
+  },
+  {
+    "id": "brumadinho",
+    "newId": "Brumadinho"
+  },
+  {
+    "id": "carmo-do-cajuru",
+    "newId": "Carmo do Cajuru"
+  },
+  {
+    "id": "arcos",
+    "newId": "Arcos"
+  },
+  {
+    "id": "abre-campo",
+    "newId": "Abre Campo"
+  },
+  {
+    "id": "mariana",
+    "newId": "Mariana"
+  },
+  {
+    "id": "itabirito",
+    "newId": "Itabirito"
+  },
+  {
+    "id": "ouro-preto",
+    "newId": "Ouro Preto"
+  },
+  {
+    "id": "bonfim",
+    "newId": "Bonfim"
+  },
+  {
+    "id": "ibiraci",
+    "newId": "Ibiraci"
+  },
+  {
+    "id": "claudio",
+    "newId": "Cláudio"
+  },
+  {
+    "id": "ponte-nova",
+    "newId": "Ponte Nova"
+  },
+  {
+    "id": "itapecerica",
+    "newId": "Itapecerica"
+  },
+  {
+    "id": "itaguara",
+    "newId": "Itaguara"
+  },
+  {
+    "id": "manhumirim",
+    "newId": "Manhumirim"
+  },
+  {
+    "id": "formiga",
+    "newId": "Formiga"
+  },
+  {
+    "id": "piumhi",
+    "newId": "Piumhi"
+  },
+  {
+    "id": "jequeri",
+    "newId": "Jequeri"
+  },
+  {
+    "id": "cassia",
+    "newId": "Cássia"
+  },
+  {
+    "id": "carmopolis-de-minas",
+    "newId": "Carmoópolis de Minas"
+  },
+  {
+    "id": "congonhas",
+    "newId": "Congonhas"
+  },
+  {
+    "id": "ouro-branco",
+    "newId": "Ouro Branco"
+  },
+  {
+    "id": "passos",
+    "newId": "Passos"
+  },
+  {
+    "id": "conselheiro-lafaiete",
+    "newId": "Conselheiro Lafaiete"
+  },
+  {
+    "id": "oliveira",
+    "newId": "Oliveira"
+  },
+  {
+    "id": "carangola",
+    "newId": "Carangola"
+  },
+  {
+    "id": "candeias",
+    "newId": "Candeias"
+  },
+  {
+    "id": "vicosa",
+    "newId": "Viçosa"
+  },
+  {
+    "id": "alpinopolis",
+    "newId": "Alpinópolis"
+  },
+  {
+    "id": "pratapolis",
+    "newId": "Pratápolis"
+  },
+  {
+    "id": "sao-sebastiao-do-paraiso",
+    "newId": "São Sebastião do Paraíso"
+  },
+  {
+    "id": "carmo-do-rio-claro",
+    "newId": "Carmo do Rio Claro"
+  },
+  {
+    "id": "campo-belo",
+    "newId": "Campo Belo"
+  },
+  {
+    "id": "bom-sucesso",
+    "newId": "Bom Sucesso"
+  },
+  {
+    "id": "boa-esperanca",
+    "newId": "Boa Esperança"
+  },
+  {
+    "id": "carandai",
+    "newId": "Carandaí"
+  },
+  {
+    "id": "visconde-do-rio-branco",
+    "newId": "Visconde do Rio Branco"
+  },
+  {
+    "id": "muriae",
+    "newId": "Muriaé"
+  },
+  {
+    "id": "perdoes",
+    "newId": "Perdões"
+  },
+  {
+    "id": "nova-resende",
+    "newId": "Nova Resende"
+  },
+  {
+    "id": "monte-santo-de-minas",
+    "newId": "Monte Santo de Minas"
+  },
+  {
+    "id": "nepomuceno",
+    "newId": "Nepomuceno"
+  },
+  {
+    "id": "sao-joao-del-rei",
+    "newId": "São João del Rei"
+  },
+  {
+    "id": "barbacena",
+    "newId": "Barbacena"
+  },
+  {
+    "id": "rio-pomba",
+    "newId": "Rio Pomba"
+  },
+  {
+    "id": "lavras",
+    "newId": "Lavras"
+  },
+  {
+    "id": "campos-gerais",
+    "newId": "Campos Gerais"
+  },
+  {
+    "id": "barroso",
+    "newId": "Barroso"
+  },
+  {
+    "id": "guaranesia",
+    "newId": "Guaranésia"
+  },
+  {
+    "id": "alfenas",
+    "newId": "Alfenas"
+  },
+  {
+    "id": "guaxupe",
+    "newId": "Guaxupé"
+  },
+  {
+    "id": "cataguases",
+    "newId": "Cataguases"
+  },
+  {
+    "id": "muzambinho",
+    "newId": "Muzambinho"
+  },
+  {
+    "id": "areado",
+    "newId": "Areado"
+  },
+  {
+    "id": "santos-dumont",
+    "newId": "Santos Dumont"
+  },
+  {
+    "id": "cabo-verde",
+    "newId": "Cabo Verde"
+  },
+  {
+    "id": "rio-novo",
+    "newId": "Rio Novo"
+  },
+  {
+    "id": "leopoldina",
+    "newId": "Leopoldina"
+  },
+  {
+    "id": "paraguacu",
+    "newId": "Paraguaçu"
+  },
+  {
+    "id": "varginha",
+    "newId": "Varginha"
+  },
+  {
+    "id": "sao-joao-nepomuceno",
+    "newId": "São João Nepomuceno"
+  },
+  {
+    "id": "juiz-de-fora",
+    "newId": "Juiz de Fora"
+  },
+  {
+    "id": "tres-coracoes",
+    "newId": "Três Corações"
+  },
+  {
+    "id": "machado",
+    "newId": "Machado"
+  },
+  {
+    "id": "andrelandia",
+    "newId": "Andrelândia"
+  },
+  {
+    "id": "campestre",
+    "newId": "Campestre"
+  },
+  {
+    "id": "botelhos",
+    "newId": "Botelhos"
+  },
+  {
+    "id": "pirapetinga",
+    "newId": "Pirapetinga"
+  },
+  {
+    "id": "cruzilia",
+    "newId": "Cruzília"
+  },
+  {
+    "id": "lima-duarte",
+    "newId": "Lima Duarte"
+  },
+  {
+    "id": "pocos-de-caldas",
+    "newId": "Poços de Caldas"
+  },
+  {
+    "id": "bicas",
+    "newId": "Bicas"
+  },
+  {
+    "id": "alem-paraiba",
+    "newId": "Além Paraíba"
+  },
+  {
+    "id": "campanha",
+    "newId": "Campanha"
+  },
+  {
+    "id": "poco-fundo",
+    "newId": "Poço Fundo"
+  },
+  {
+    "id": "pirauba",
+    "newId": "Pirajuba"
+  },
+  {
+    "id": "aiuruoca",
+    "newId": "Aiuruoca"
+  },
+  {
+    "id": "mar-de-espanha",
+    "newId": "Mar de Espanha"
+  },
+  {
+    "id": "caldas",
+    "newId": "Caldas"
+  },
+  {
+    "id": "conceicao-do-rio-verde",
+    "newId": "Conceição do Rio Verde"
+  },
+  {
+    "id": "sao-goncalo-do-sapucai",
+    "newId": "São Gonçalo do Sapucaí"
+  },
+  {
+    "id": "cambuquira",
+    "newId": "Cambuquira"
+  },
+  {
+    "id": "baependi",
+    "newId": "Baependi"
+  },
+  {
+    "id": "santa-rita-de-caldas",
+    "newId": "Santa Rita de Caldas"
+  },
+  {
+    "id": "caxambu",
+    "newId": "Caxambu"
+  },
+  {
+    "id": "lambari",
+    "newId": "Lambari"
+  },
+  {
+    "id": "andradas",
+    "newId": "Andradas"
+  },
+  {
+    "id": "silvianopolis",
+    "newId": "Silvianópolis"
+  },
+  {
+    "id": "latercia",
+    "newId": "Lavras"
+  },
+  {
+    "id": "sao-lourenco",
+    "newId": "São Lourenço"
+  },
+  {
+    "id": "pouso-alegre",
+    "newId": "Pouso Alegre"
+  },
+  {
+    "id": "ouro-fino",
+    "newId": "Ouro Fino"
+  },
+  {
+    "id": "borda-da-mata",
+    "newId": "Borda da Mata"
+  },
+  {
+    "id": "santa-rita-do-sapucai",
+    "newId": "Santa Rita do Sapucaí"
+  },
+  {
+    "id": "itamonte",
+    "newId": "Itamonte"
+  },
+  {
+    "id": "jacutinga",
+    "newId": "Jacutinga"
+  },
+  {
+    "id": "itanhandu",
+    "newId": "Itanhandu"
+  },
+  {
+    "id": "cachoeira-de-minas",
+    "newId": "Cachoeira de Minas"
+  },
+  {
+    "id": "passa-quatro",
+    "newId": "Passa Quatro"
+  },
+  {
+    "id": "monte-siao",
+    "newId": "Monte Sião"
+  },
+  {
+    "id": "itajuba",
+    "newId": "Itajubá"
+  },
+  {
+    "id": "brasopolis",
+    "newId": "Brazópolis"
+  },
+  {
+    "id": "bueno-brandao",
+    "newId": "Bueno Brandão"
+  },
+  {
+    "id": "paraisopolis",
+    "newId": "Paraíso"
+  },
+  {
+    "id": "cambui",
+    "newId": "Cambuí"
+  },
+  {
+    "id": "camanducaia",
+    "newId": "Camanducaia"
+  },
+  {
+    "id": "extrema",
+    "newId": "Extrema"
+  },
+  {
+    "id": "bom-despacho",
+    "newId": "Bom Despacho"
+  },
+  {
+    "id": "curvelo",
+    "newId": "Curvelo"
+  },
+  {
+    "id": "uba",
+    "newId": "Ubá"
+  }
+]

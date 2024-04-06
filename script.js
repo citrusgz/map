@@ -33,6 +33,24 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
+  function exibirCidadeSelecionada() {
+    let idProcurado = state.citySelected.target.attributes.id.value;
+
+    fetch('uniao.json')
+    .then(response => response.json())
+    .then(uniao => {
+      let itemEncontrado = uniao.find(item => item.id === idProcurado);
+
+      if (itemEncontrado) {
+        let cityNameElement = document.getElementById('cityName');
+    
+        if (cityNameElement) {
+          cityNameElement.innerHTML = "Para a cidade de: <span style='font-weight:bold;'>" + itemEncontrado.newId + "</span>";
+        }
+      }
+    });
+  }
+
   function isRegion(e) {
     return e.target.nodeName === "path";
   }
@@ -86,6 +104,8 @@ document.addEventListener("DOMContentLoaded", function () {
       exibirModal();
 
       destacarRegiao(e);
+
+      exibirCidadeSelecionada();
     }
 
     buttonBlue.addEventListener("click", () => {
