@@ -12,6 +12,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const blockedRegions = ['st21', 'st4'];
 
+  const cityNameElement = document.getElementById('cityName');
+
   function definirOpacidadeMapa(opacity) {
     let todasAsRegioes = document.querySelectorAll("path");
     let todosOsPontos = document.querySelectorAll("circle");
@@ -36,17 +38,13 @@ document.addEventListener("DOMContentLoaded", function () {
   function exibirCidadeSelecionada() {
     let idProcurado = state.citySelected.target.attributes.id.value;
 
-    fetch('uniao.json')
+    fetch('cities.json')
     .then(response => response.json())
-    .then(uniao => {
-      let itemEncontrado = uniao.find(item => item.id === idProcurado);
+    .then(cities => {
+      let itemEncontrado = cities.find(item => item.id === idProcurado);
 
-      if (itemEncontrado) {
-        let cityNameElement = document.getElementById('cityName');
-    
-        if (cityNameElement) {
-          cityNameElement.innerHTML = "Para a cidade de: <span style='font-weight:bold;'>" + itemEncontrado.newId + "</span>";
-        }
+      if (cityNameElement && itemEncontrado) {
+        cityNameElement.innerHTML = "Para a cidade de: <span style='font-weight:bold;'>" + itemEncontrado.newId + "</span>";
       }
     });
   }
