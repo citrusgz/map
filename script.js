@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
-
   const state = {
-    citySelected: null
+    citySelected: null,
   };
 
   const buttonBlue = document.getElementById("blueBtn");
@@ -10,9 +9,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const modal = document.getElementById("button-wrapper");
 
-  const blockedRegions = ['st21', 'st4'];
+  const mapa = document.getElementById("map");
 
-  const cityNameElement = document.getElementById('cityName');
+  const blockedRegions = ["st21", "st4"];
+
+  const cityNameElement = document.getElementById("cityName");
 
   function definirOpacidadeMapa(opacity) {
     let todasAsRegioes = document.querySelectorAll("path");
@@ -28,7 +29,9 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function destacarRegiao(e) {
-    let citiesSelected = document.getElementsByClassName(e.target.attributes.class.value);
+    let citiesSelected = document.getElementsByClassName(
+      e.target.attributes.class.value
+    );
 
     Array.from(citiesSelected).forEach((el) => {
       el.style.opacity = 1;
@@ -38,15 +41,18 @@ document.addEventListener("DOMContentLoaded", function () {
   function exibirCidadeSelecionada() {
     let idProcurado = state.citySelected.target.attributes.id.value;
 
-    fetch('cities.json')
-    .then(response => response.json())
-    .then(cities => {
-      let itemEncontrado = cities.find(item => item.id === idProcurado);
+    fetch("cities.json")
+      .then((response) => response.json())
+      .then((cities) => {
+        let itemEncontrado = cities.find((item) => item.id === idProcurado);
 
-      if (cityNameElement && itemEncontrado) {
-        cityNameElement.innerHTML = "Para a cidade de: <span style='font-weight:bold;'>" + itemEncontrado.newId + "</span>";
-      }
-    });
+        if (cityNameElement && itemEncontrado) {
+          cityNameElement.innerHTML =
+            "Para a cidade de: <span style='font-weight:bold;'>" +
+            itemEncontrado.newId +
+            "</span>";
+        }
+      });
   }
 
   function isRegion(e) {
@@ -70,27 +76,18 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function isButton(e) {
-    return e.target.nodeName !== "BUTTON"
+    return e.target.nodeName !== "BUTTON";
   }
 
-  function haveSelectedCity() {
-    return state.citySelected !== null
-  }
-
-  document.addEventListener("click", (e) => {
-
-    if (haveSelectedCity()) {
-      definirOpacidadeMapa(1)
-    }
-
-    if (!isRegion(e) && isButton(e)) {
-
+  mapa.addEventListener("click", (e) => {
+    if (!isRegion(e)) {
       state.citySelected = null;
 
       ocultarModal();
     }
 
-    if(!regionAllowedClick(e)) {
+    if (!isRegion(e) || !regionAllowedClick(e)) {
+      definirOpacidadeMapa(1);
       ocultarModal();
     }
 
@@ -105,20 +102,23 @@ document.addEventListener("DOMContentLoaded", function () {
 
       exibirCidadeSelecionada();
     }
+  });
+  
+  buttonBlue.addEventListener("click", () => {
+    pintarCidadeSelecionada("#0072bc");
+    ocultarModal();
+    definirOpacidadeMapa(1);
+  });
 
-    buttonBlue.addEventListener("click", () => {
-      pintarCidadeSelecionada("#0072bc");
-      ocultarModal();
-    });
+  buttonRed.addEventListener("click", () => {
+    pintarCidadeSelecionada("#ed1c24");
+    ocultarModal();
+    definirOpacidadeMapa(1);
 
-    buttonRed.addEventListener("click", () => {
-      pintarCidadeSelecionada("#ed1c24");
-      ocultarModal();
-    });
   });
 
   document.addEventListener("keydown", function (event) {
-    if (event.key === 'Escape') {
+    if (event.key === "Escape") {
       ocultarModal();
 
       state.citySelected = null;
