@@ -15,6 +15,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const buttonRed = document.getElementById("redBtn");
 
+  const btnClearAll = document.getElementById("clearAll");
+
+  const btnUndo = document.getElementById("undo");
+
   const modal = document.getElementById("button-wrapper");
 
   const mapa = document.getElementById("map");
@@ -79,11 +83,6 @@ document.addEventListener("DOMContentLoaded", function () {
     modal.removeAttribute("hidden");
   }
 
-  
-  function isButton(e) {
-    return e.target.nodeName !== "BUTTON";
-  }
-
   mapa.addEventListener("click", (e) => {
     if (!isRegion(e)) {
       state.citySelected = null;
@@ -124,10 +123,9 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   function insertIntoCitySelectedStack() {
-
     var estilosComputados = window.getComputedStyle(state.citySelected.target);
 
-    state.changeStack.unshift(new City(state.citySelected.target.attributes.id, estilosComputados.fill));
+    state.changeStack.unshift(new City(state.citySelected.target.attributes.id.value, estilosComputados.fill));
 
     var estilosComputados = null;
 
@@ -147,4 +145,26 @@ document.addEventListener("DOMContentLoaded", function () {
       definirOpacidadeMapa(1);
     }
   });
+
+  btnUndo.addEventListener("click", () => {
+    var cityRemoved = state.changeStack.shift();
+
+    resetCityColor(cityRemoved);
+  });
+
+  btnClearAll.addEventListener("click", () => {
+
+    state.changeStack.forEach(city => {
+
+      resetCityColor(city);
+    });
+
+    state.changeStack = [];
+  });
+
+  function resetCityColor(city) {
+    var elCity = document.getElementById(city.id);
+
+    elCity.style.fill = city.originalColor;
+  }
 });
