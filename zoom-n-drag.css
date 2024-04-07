@@ -4,6 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 1px solid red;
 }
 
 #svg-wrapper.grabbing {
@@ -14,7 +15,6 @@
   max-width: 100%;
   height: 100vh;
   display: block;
-  border: 1px solid red;
 }
 
 .svg-container {
