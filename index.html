@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mapa</title>
     <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="zoom-n-drag.css" type="text/css" />
   </head>
   <body>
-    <div>
+    <div id="buttons-wrapper">
       <button id="clearAll">Limpar tudo</button>
       <button id="undo">Desfazer</button>
     </div>
@@ -21,7 +22,10 @@
         </div>
       </div>
     </div>
-    <svg
+  <div class="svg-container">
+    <div id="svg-wrapper">
+
+      <svg
       version="1.1"
       id="map"
       xmlns="http://www.w3.org/2000/svg"
@@ -30044,6 +30048,11 @@
         />
       </g>
     </svg>
-    <script src="script.js"></script>
-  </body>
+
+    </div>
+  </div>
+  <script src="script.js"></script>
+  <script src="zoom-n-drag.js"></script>
+</body>
+
 </html>
