@@ -128,8 +128,6 @@ document.addEventListener("DOMContentLoaded", function () {
     state.changeStack.unshift(new City(state.citySelected.target.attributes.id.value, estilosComputados.fill));
 
     var estilosComputados = null;
-
-    console.log(state.changeStack);
   }
 
   function pintarCidadeSelecionada(color) {
@@ -163,6 +161,11 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   function resetCityColor(city) {
+
+    if(!city) {
+      return
+    }
+
     var elCity = document.getElementById(city.id);
 
     elCity.style.fill = city.originalColor;

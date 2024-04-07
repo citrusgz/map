@@ -8,15 +8,17 @@ let scale = 1;
 
 // Adiciona um ouvinte de evento para pressionar o mouse
 svgWrapper.addEventListener('mousedown', function (event) {
-  event.preventDefault();
-
-  // Atualiza o estado do movimento para true
-  isDragging = true;
-
-  startX = event.clientX;
-  startY = event.clientY;
-
-  svgWrapper.classList.add('grabbing');
+  if (event.button === 1) {
+    event.preventDefault();
+  
+    // Atualiza o estado do movimento para true
+    isDragging = true;
+  
+    startX = event.clientX;
+    startY = event.clientY;
+  
+    svgWrapper.classList.add('grabbing');
+  }
 });
 
 // Adiciona um ouvinte de evento para soltar o mouse
@@ -56,8 +58,8 @@ svgWrapper.addEventListener('wheel', function (event) {
   scale += direction === 1 ? 1 : -1;
 
   // Limita o zoom mínimo e máximo
-  if (scale < 0.1) scale = 0.1;
-  if (scale > 3) scale = 3;
+  if (scale < 1) scale = 1;
+  if (scale > 5) scale = 5;
 
   // Aplica a transformação de translação e escala ao SVG
   svgWrapper.style.transform = `translate(${translateX}px, ${translateY}px) scale(${scale})`;

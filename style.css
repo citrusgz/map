@@ -41,6 +41,10 @@
   align-items: center;
 }
 
+#buttons-wrapper {
+  height: 2rem;
+}
+
 .buttons {
   display: flex;
   flex-direction: row;
