@@ -1,986 +1,986 @@
 [
   {
     "id": "varzea-da-palma",
-    "newId": "Várzea da Palma"
+    "cityName": "Várzea da Palma"
   },
   {
     "id": "tres-pontas",
-    "newId": "Três Pontas"
+    "cityName": "Três Pontas"
   },
   {
     "id": "pirapora",
-    "newId": "Pirapora"
+    "cityName": "Pirapora"
   },
   {
     "id": "eloi-mendes",
-    "newId": "Elói Mendes"
+    "cityName": "Elói Mendes"
   },
   {
     "id": "manga",
-    "newId": "Manga"
+    "cityName": "Manga"
   },
   {
     "id": "espinosa",
-    "newId": "Espinosa"
+    "cityName": "Espinosa"
   },
   {
     "id": "jaiba",
-    "newId": "Jaíba"
+    "cityName": "Jaíba"
   },
   {
     "id": "januaria",
-    "newId": "Januária"
+    "cityName": "Januária"
   },
   {
     "id": "araguari",
-    "newId": "Araguari"
+    "cityName": "Araguari"
   },
   {
     "id": "reduto",
-    "newId": "Reduto"
+    "cityName": "Reduto"
   },
   {
     "id": "buritis",
-    "newId": "Buritis"
+    "cityName": "Buritis"
   },
   {
     "id": "monte-azul",
-    "newId": "Monte Azul"
+    "cityName": "Monte Azul"
   },
   {
     "id": "sao-joao-do-paraido",
-    "newId": "São João do Paraído"
+    "cityName": "São João do Paraído"
   },
   {
     "id": "janauba",
-    "newId": "Janaúba"
+    "cityName": "Janaúba"
   },
   {
     "id": "arinos",
-    "newId": "Aranãs"
+    "cityName": "Aranãs"
   },
   {
     "id": "rio-pardo-de-minas",
-    "newId": "Rio Pardo de Minas"
+    "cityName": "Rio Pardo de Minas"
   },
   {
     "id": "porteirinha",
-    "newId": "Porteirinha"
+    "cityName": "Porteirinha"
   },
   {
     "id": "sao-francisco",
-    "newId": "São Francisco"
+    "cityName": "São Francisco"
   },
   {
     "id": "taiobeiras",
-    "newId": "Taiobeiras"
+    "cityName": "Taiobeiras"
   },
   {
     "id": "sao-joao-da-ponte",
-    "newId": "São João da Ponte"
+    "cityName": "São João da Ponte"
   },
   {
     "id": "pedra-azul",
-    "newId": "Pedra Azul"
+    "cityName": "Pedra Azul"
   },
   {
     "id": "almenara",
-    "newId": "Almenara"
+    "cityName": "Almenara"
   },
   {
     "id": "unai",
-    "newId": "Unaí"
+    "cityName": "Unaí"
   },
   {
     "id": "salinas",
-    "newId": "Salinas"
+    "cityName": "Salinas"
   },
   {
     "id": "jacinto",
-    "newId": "Jacinto"
+    "cityName": "Jacinto"
   },
   {
     "id": "brasilia-de-minas",
-    "newId": "Brasília de Minas"
+    "cityName": "Brasília de Minas"
   },
   {
     "id": "jequitinhonha",
-    "newId": "Jequitinhonha"
+    "cityName": "Jequitinhonha"
   },
   {
     "id": "medina",
-    "newId": "Medina"
+    "cityName": "Medina"
   },
   {
     "id": "francisco-sa",
-    "newId": "Francisco Sá"
+    "cityName": "Francisco Sá"
   },
   {
     "id": "montes-claros",
-    "newId": "Montes Claros"
+    "cityName": "Montes Claros"
   },
   {
     "id": "grao-mogol",
-    "newId": "Grão Mogol"
+    "cityName": "Grão Mogol"
   },
   {
     "id": "bonfinopolis-de-minas",
-    "newId": "Bonfinópolis de Minas"
+    "cityName": "Bonfinópolis de Minas"
   },
   {
     "id": "coracao-de-jesus",
-    "newId": "Coração de Jesus"
+    "cityName": "Coração de Jesus"
   },
   {
     "id": "aracuai",
-    "newId": "Araçuaí"
+    "cityName": "Araçuaí"
   },
   {
     "id": "paracatu",
-    "newId": "Paracatu"
+    "cityName": "Paracatu"
   },
   {
     "id": "bocaiuva",
-    "newId": "Bocaiúva"
+    "cityName": "Bocaiúva"
   },
   {
     "id": "aguas-formosas",
-    "newId": "Águas Formosas"
+    "cityName": "Águas Formosas"
   },
   {
     "id": "joao-pinheiro",
-    "newId": "João Pinheiro"
+    "cityName": "João Pinheiro"
   },
   {
     "id": "turmalina",
-    "newId": "Turmalina"
+    "cityName": "Turmalina"
   },
   {
     "id": "novo-cruzeiro",
-    "newId": "Novo Cruzeiro"
+    "cityName": "Novo Cruzeiro"
   },
   {
     "id": "minas-novas",
-    "newId": "Minas Novas"
+    "cityName": "Minas Novas"
   },
   {
     "id": "carlos-chagas",
-    "newId": "Carlos Chagas"
+    "cityName": "Carlos Chagas"
   },
   {
     "id": "teofilo-otoni",
-    "newId": "Teófilo Otoni"
+    "cityName": "Teófilo Otoni"
   },
   {
     "id": "diamantina",
-    "newId": "Diamantina"
+    "cityName": "Diamantina"
   },
   {
     "id": "nanuque",
-    "newId": "Nanuque"
+    "cityName": "Nanuque"
   },
   {
     "id": "capelinha",
-    "newId": "Capelinha"
+    "cityName": "Capelinha"
   },
   {
     "id": "vazante",
-    "newId": "Vazante"
+    "cityName": "Vazante"
   },
   {
     "id": "itamarandiba",
-    "newId": "Itamarandiba"
+    "cityName": "Itamarandiba"
   },
   {
     "id": "buenopolis",
-    "newId": "Buenópolis"
+    "cityName": "Buenópolis"
   },
   {
     "id": "presidente-olegario",
-    "newId": "Presidente Olegário"
+    "cityName": "Presidente Olegário"
   },
   {
     "id": "itambacuri",
-    "newId": "Itambacuri"
+    "cityName": "Itambacuri"
   },
   {
     "id": "tres-marias",
-    "newId": "Três Marias"
+    "cityName": "Três Marias"
   },
   {
     "id": "corinto",
-    "newId": "Corinto"
+    "cityName": "Corinto"
   },
   {
     "id": "coromandel",
-    "newId": "Coromandel"
+    "cityName": "Coromandel"
   },
   {
     "id": "santa-maria-do-suacui",
-    "newId": "Santa Maria do Suaçuí"
+    "cityName": "Santa Maria do Suaçuí"
   },
   {
     "id": "patos-de-minas",
-    "newId": "Patos de Minas"
+    "cityName": "Patos de Minas"
   },
   {
     "id": "serro",
-    "newId": "Serro"
+    "cityName": "Serro"
   },
   {
     "id": "tapaciguara",
-    "newId": "Tapaciguara"
+    "cityName": "Tapaciguara"
   },
   {
     "id": "pecanha",
-    "newId": "Peçanha"
+    "cityName": "Peçanha"
   },
   {
     "id": "sabinopolis",
-    "newId": "Sabinópolis"
+    "cityName": "Sabinópolis"
   },
   {
     "id": "monte-carmelo",
-    "newId": "Monte Carmelo"
+    "cityName": "Monte Carmelo"
   },
   {
     "id": "mantena",
-    "newId": "Mantena"
+    "cityName": "Mantena"
   },
   {
     "id": "monte-alegre-de-minas",
-    "newId": "Monte Alegre de Minas"
+    "cityName": "Monte Alegre de Minas"
   },
   {
     "id": "governador-valadares",
-    "newId": "Governador Valadares"
+    "cityName": "Governador Valadares"
   },
   {
     "id": "campinopolis",
-    "newId": "Campinápolis"
+    "cityName": "Campinápolis"
   },
   {
     "id": "canapolis",
-    "newId": "Canápolis"
+    "cityName": "Canápolis"
   },
   {
     "id": "uberlandia",
-    "newId": "Uberlândia"
+    "cityName": "Uberlândia"
   },
   {
     "id": "conceicao-do-mato-dentro",
-    "newId": "Conceição do Mato Dentro"
+    "cityName": "Conceição do Mato Dentro"
   },
   {
     "id": "guanhaes",
-    "newId": "Guanhães"
+    "cityName": "Guanhães"
   },
   {
     "id": "ituiutaba",
-    "newId": "Ituiutaba"
+    "cityName": "Ituiutaba"
   },
   {
     "id": "virginopolis",
-    "newId": "Virginópolis"
+    "cityName": "Virginópolis"
   },
   {
     "id": "carmo-do-paranaiba",
-    "newId": "Carmo do Paranaíba"
+    "cityName": "Carmo do Paranaíba"
   },
   {
     "id": "santa-vitoria",
-    "newId": "Santa Vitória"
+    "cityName": "Santa Vitória"
   },
   {
     "id": "patrocinio",
-    "newId": "Patrocínio"
+    "cityName": "Patrocínio"
   },
   {
     "id": "pompeu",
-    "newId": "Pompéu"
+    "cityName": "Pompéu"
   },
   {
     "id": "conselheiro-pena",
-    "newId": "Conselheiro Pena"
+    "cityName": "Conselheiro Pena"
   },
   {
     "id": "abaete",
-    "newId": "Abaeté"
+    "cityName": "Abaeté"
   },
   {
     "id": "acucena",
-    "newId": "Açuçena"
+    "cityName": "Açuçena"
   },
   {
     "id": "prata",
-    "newId": "Prata"
+    "cityName": "Prata"
   },
   {
     "id": "nova-ponte",
-    "newId": "Nova Ponte"
+    "cityName": "Nova Ponte"
   },
   {
     "id": "resplendor",
-    "newId": "Resplendor"
+    "cityName": "Resplendor"
   },
   {
     "id": "uberaba",
-    "newId": "Uberaba"
+    "cityName": "Uberaba"
   },
   {
     "id": "tarumirim",
-    "newId": "Tarumirim"
+    "cityName": "Tarumirim"
   },
   {
     "id": "paraopeba",
-    "newId": "Paraopeba"
+    "cityName": "Paraopeba"
   },
   {
     "id": "sao-gotardo",
-    "newId": "São Gotardo"
+    "cityName": "São Gotardo"
   },
   {
     "id": "campina-verde",
-    "newId": "Campina Verde"
+    "cityName": "Campina Verde"
   },
   {
     "id": "ibia",
-    "newId": "Ibiá"
+    "cityName": "Ibiá"
   },
   {
     "id": "dores-do-indaia",
-    "newId": "Dores do Indaiá"
+    "cityName": "Dores do Indaiá"
   },
   {
     "id": "sete-lagoas",
-    "newId": "Sete Lagoas"
+    "cityName": "Sete Lagoas"
   },
   {
     "id": "coronel-fabriciano",
-    "newId": "Coronel Fabriciano"
+    "cityName": "Coronel Fabriciano"
   },
   {
     "id": "inhapim",
-    "newId": "Inhapim"
+    "cityName": "Inhapim"
   },
   {
     "id": "ipatinga",
-    "newId": "Ipatinga"
+    "cityName": "Ipatinga"
   },
   {
     "id": "aimores",
-    "newId": "Aimorés"
+    "cityName": "Aimorés"
   },
   {
     "id": "matozinhos",
-    "newId": "Matozinhos"
+    "cityName": "Matozinhos"
   },
   {
     "id": "ipanema",
-    "newId": "Ipanema"
+    "cityName": "Ipanema"
   },
   {
     "id": "campos-altos",
-    "newId": "Campos Altos"
+    "cityName": "Campos Altos"
   },
   {
     "id": "itabira",
-    "newId": "Itabira"
+    "cityName": "Itabira"
   },
   {
     "id": "sacramento",
-    "newId": "Sacramento"
+    "cityName": "Sacramento"
   },
   {
     "id": "araxa",
-    "newId": "Araxá"
+    "cityName": "Araxá"
   },
   {
     "id": "pitangui",
-    "newId": "Pitangui"
+    "cityName": "Pitangui"
   },
   {
     "id": "pedro-leopoldo",
-    "newId": "Pedro Leopoldo"
+    "cityName": "Pedro Leopoldo"
   },
   {
     "id": "timoteo",
-    "newId": "Timóteo"
+    "cityName": "Timóteo"
   },
   {
     "id": "lagoa-santa",
-    "newId": "Lagoa Santa"
+    "cityName": "Lagoa Santa"
   },
   {
     "id": "itapagipe",
-    "newId": "Itapagipe"
+    "cityName": "Itapagipe"
   },
   {
     "id": "esmeralda",
-    "newId": "Esmeraldas"
+    "cityName": "Esmeraldas"
   },
   {
     "id": "iturama",
-    "newId": "Iturama"
+    "cityName": "Iturama"
   },
   {
     "id": "caratinga",
-    "newId": "Caratinga"
+    "cityName": "Caratinga"
   },
   {
     "id": "luz",
-    "newId": "Luz"
+    "cityName": "Luz"
   },
   {
     "id": "vespasiano",
-    "newId": "Vespasiano"
+    "cityName": "Vespasiano"
   },
   {
     "id": "santa-luzia",
-    "newId": "Santa Luzia"
+    "cityName": "Santa Luzia"
   },
   {
     "id": "caete",
-    "newId": "Caeté"
+    "cityName": "Caeté"
   },
   {
     "id": "sabara",
-    "newId": "Sabará"
+    "cityName": "Sabará"
   },
   {
     "id": "ribeirao-das-neves",
-    "newId": "Ribeirão das Neves"
+    "cityName": "Ribeirão das Neves"
   },
   {
     "id": "conceicao-das-alagoas",
-    "newId": "Conceição das Alagoas"
+    "cityName": "Conceição das Alagoas"
   },
   {
     "id": "cocais",
-    "newId": "Coração de Jesus"
+    "cityName": "Coração de Jesus"
   },
   {
     "id": "joao-monlevade",
-    "newId": "João Monlevade"
+    "cityName": "João Monlevade"
   },
   {
     "id": "belo-horizonte",
-    "newId": "Belo Horizonte"
+    "cityName": "Belo Horizonte"
   },
   {
     "id": "nova-serrana",
-    "newId": "Nova Serrana"
+    "cityName": "Nova Serrana"
   },
   {
     "id": "frutal",
-    "newId": "Frutal"
+    "cityName": "Frutal"
   },
   {
     "id": "contagem",
-    "newId": "Contagem"
+    "cityName": "Contagem"
   },
   {
     "id": "betim",
-    "newId": "Betim"
+    "cityName": "Betim"
   },
   {
     "id": "raul-soares",
-    "newId": "Raul Soares"
+    "cityName": "Raul Soares"
   },
   {
     "id": "santo-antonio-do-monte",
-    "newId": "Santo Antônio do Monte"
+    "cityName": "Santo Antônio do Monte"
   },
   {
     "id": "lagoa-da-prata",
-    "newId": "Lagoa da Prata"
+    "cityName": "Lagoa da Prata"
   },
   {
     "id": "santa-barbara",
-    "newId": "Santa Bárbara"
+    "cityName": "Santa Bárbara"
   },
   {
     "id": "manhuacu",
-    "newId": "Manhuaçu"
+    "cityName": "Manhuaçu"
   },
   {
     "id": "bambui",
-    "newId": "Bambuí"
+    "cityName": "Bambuí"
   },
   {
     "id": "nova-lima",
-    "newId": "Nova Lima"
+    "cityName": "Nova Lima"
   },
   {
     "id": "divinopolis",
-    "newId": "Divinópolis"
+    "cityName": "Divinópolis"
   },
   {
     "id": "mateus-leme",
-    "newId": "Mateus Leme"
+    "cityName": "Mateus Leme"
   },
   {
     "id": "itauna",
-    "newId": "Itaúna"
+    "cityName": "Itaúna"
   },
   {
     "id": "ibirite",
-    "newId": "Ibirité"
+    "cityName": "Ibirité"
   },
   {
     "id": "sao-roque-de-minas",
-    "newId": "São Roque de Minas"
+    "cityName": "São Roque de Minas"
   },
   {
     "id": "rio-casca",
-    "newId": "Rio Casca"
+    "cityName": "Rio Casca"
   },
   {
     "id": "igarape",
-    "newId": "Igarapé"
+    "cityName": "Igarapé"
   },
   {
     "id": "alvinopolis",
-    "newId": "Alvinópolis"
+    "cityName": "Alvinópolis"
   },
   {
     "id": "lajinha",
-    "newId": "Lajinha"
+    "cityName": "Lajinha"
   },
   {
     "id": "brumadinho",
-    "newId": "Brumadinho"
+    "cityName": "Brumadinho"
   },
   {
     "id": "carmo-do-cajuru",
-    "newId": "Carmo do Cajuru"
+    "cityName": "Carmo do Cajuru"
   },
   {
     "id": "arcos",
-    "newId": "Arcos"
+    "cityName": "Arcos"
   },
   {
     "id": "abre-campo",
-    "newId": "Abre Campo"
+    "cityName": "Abre Campo"
   },
   {
     "id": "mariana",
-    "newId": "Mariana"
+    "cityName": "Mariana"
   },
   {
     "id": "itabirito",
-    "newId": "Itabirito"
+    "cityName": "Itabirito"
   },
   {
     "id": "ouro-preto",
-    "newId": "Ouro Preto"
+    "cityName": "Ouro Preto"
   },
   {
     "id": "bonfim",
-    "newId": "Bonfim"
+    "cityName": "Bonfim"
   },
   {
     "id": "ibiraci",
-    "newId": "Ibiraci"
+    "cityName": "Ibiraci"
   },
   {
     "id": "claudio",
-    "newId": "Cláudio"
+    "cityName": "Cláudio"
   },
   {
     "id": "ponte-nova",
-    "newId": "Ponte Nova"
+    "cityName": "Ponte Nova"
   },
   {
     "id": "itapecerica",
-    "newId": "Itapecerica"
+    "cityName": "Itapecerica"
   },
   {
     "id": "itaguara",
-    "newId": "Itaguara"
+    "cityName": "Itaguara"
   },
   {
     "id": "manhumirim",
-    "newId": "Manhumirim"
+    "cityName": "Manhumirim"
   },
   {
     "id": "formiga",
-    "newId": "Formiga"
+    "cityName": "Formiga"
   },
   {
     "id": "piumhi",
-    "newId": "Piumhi"
+    "cityName": "Piumhi"
   },
   {
     "id": "jequeri",
-    "newId": "Jequeri"
+    "cityName": "Jequeri"
   },
   {
     "id": "cassia",
-    "newId": "Cássia"
+    "cityName": "Cássia"
   },
   {
     "id": "carmopolis-de-minas",
-    "newId": "Carmoópolis de Minas"
+    "cityName": "Carmoópolis de Minas"
   },
   {
     "id": "congonhas",
-    "newId": "Congonhas"
+    "cityName": "Congonhas"
   },
   {
     "id": "ouro-branco",
-    "newId": "Ouro Branco"
+    "cityName": "Ouro Branco"
   },
   {
     "id": "passos",
-    "newId": "Passos"
+    "cityName": "Passos"
   },
   {
     "id": "conselheiro-lafaiete",
-    "newId": "Conselheiro Lafaiete"
+    "cityName": "Conselheiro Lafaiete"
   },
   {
     "id": "oliveira",
-    "newId": "Oliveira"
+    "cityName": "Oliveira"
   },
   {
     "id": "carangola",
-    "newId": "Carangola"
+    "cityName": "Carangola"
   },
   {
     "id": "candeias",
-    "newId": "Candeias"
+    "cityName": "Candeias"
   },
   {
     "id": "vicosa",
-    "newId": "Viçosa"
+    "cityName": "Viçosa"
   },
   {
     "id": "alpinopolis",
-    "newId": "Alpinópolis"
+    "cityName": "Alpinópolis"
   },
   {
     "id": "pratapolis",
-    "newId": "Pratápolis"
+    "cityName": "Pratápolis"
   },
   {
     "id": "sao-sebastiao-do-paraiso",
-    "newId": "São Sebastião do Paraíso"
+    "cityName": "São Sebastião do Paraíso"
   },
   {
     "id": "carmo-do-rio-claro",
-    "newId": "Carmo do Rio Claro"
+    "cityName": "Carmo do Rio Claro"
   },
   {
     "id": "campo-belo",
-    "newId": "Campo Belo"
+    "cityName": "Campo Belo"
   },
   {
     "id": "bom-sucesso",
-    "newId": "Bom Sucesso"
+    "cityName": "Bom Sucesso"
   },
   {
     "id": "boa-esperanca",
-    "newId": "Boa Esperança"
+    "cityName": "Boa Esperança"
   },
   {
     "id": "carandai",
-    "newId": "Carandaí"
+    "cityName": "Carandaí"
   },
   {
     "id": "visconde-do-rio-branco",
-    "newId": "Visconde do Rio Branco"
+    "cityName": "Visconde do Rio Branco"
   },
   {
     "id": "muriae",
-    "newId": "Muriaé"
+    "cityName": "Muriaé"
   },
   {
     "id": "perdoes",
-    "newId": "Perdões"
+    "cityName": "Perdões"
   },
   {
     "id": "nova-resende",
-    "newId": "Nova Resende"
+    "cityName": "Nova Resende"
   },
   {
     "id": "monte-santo-de-minas",
-    "newId": "Monte Santo de Minas"
+    "cityName": "Monte Santo de Minas"
   },
   {
     "id": "nepomuceno",
-    "newId": "Nepomuceno"
+    "cityName": "Nepomuceno"
   },
   {
     "id": "sao-joao-del-rei",
-    "newId": "São João del Rei"
+    "cityName": "São João del Rei"
   },
   {
     "id": "barbacena",
-    "newId": "Barbacena"
+    "cityName": "Barbacena"
   },
   {
     "id": "rio-pomba",
-    "newId": "Rio Pomba"
+    "cityName": "Rio Pomba"
   },
   {
     "id": "lavras",
-    "newId": "Lavras"
+    "cityName": "Lavras"
   },
   {
     "id": "campos-gerais",
-    "newId": "Campos Gerais"
+    "cityName": "Campos Gerais"
   },
   {
     "id": "barroso",
-    "newId": "Barroso"
+    "cityName": "Barroso"
   },
   {
     "id": "guaranesia",
-    "newId": "Guaranésia"
+    "cityName": "Guaranésia"
   },
   {
     "id": "alfenas",
-    "newId": "Alfenas"
+    "cityName": "Alfenas"
   },
   {
     "id": "guaxupe",
-    "newId": "Guaxupé"
+    "cityName": "Guaxupé"
   },
   {
     "id": "cataguases",
-    "newId": "Cataguases"
+    "cityName": "Cataguases"
   },
   {
     "id": "muzambinho",
-    "newId": "Muzambinho"
+    "cityName": "Muzambinho"
   },
   {
     "id": "areado",
-    "newId": "Areado"
+    "cityName": "Areado"
   },
   {
     "id": "santos-dumont",
-    "newId": "Santos Dumont"
+    "cityName": "Santos Dumont"
   },
   {
     "id": "cabo-verde",
-    "newId": "Cabo Verde"
+    "cityName": "Cabo Verde"
   },
   {
     "id": "rio-novo",
-    "newId": "Rio Novo"
+    "cityName": "Rio Novo"
   },
   {
     "id": "leopoldina",
-    "newId": "Leopoldina"
+    "cityName": "Leopoldina"
   },
   {
     "id": "paraguacu",
-    "newId": "Paraguaçu"
+    "cityName": "Paraguaçu"
   },
   {
     "id": "varginha",
-    "newId": "Varginha"
+    "cityName": "Varginha"
   },
   {
     "id": "sao-joao-nepomuceno",
-    "newId": "São João Nepomuceno"
+    "cityName": "São João Nepomuceno"
   },
   {
     "id": "juiz-de-fora",
-    "newId": "Juiz de Fora"
+    "cityName": "Juiz de Fora"
   },
   {
     "id": "tres-coracoes",
-    "newId": "Três Corações"
+    "cityName": "Três Corações"
   },
   {
     "id": "machado",
-    "newId": "Machado"
+    "cityName": "Machado"
   },
   {
     "id": "andrelandia",
-    "newId": "Andrelândia"
+    "cityName": "Andrelândia"
   },
   {
     "id": "campestre",
-    "newId": "Campestre"
+    "cityName": "Campestre"
   },
   {
     "id": "botelhos",
-    "newId": "Botelhos"
+    "cityName": "Botelhos"
   },
   {
     "id": "pirapetinga",
-    "newId": "Pirapetinga"
+    "cityName": "Pirapetinga"
   },
   {
     "id": "cruzilia",
-    "newId": "Cruzília"
+    "cityName": "Cruzília"
   },
   {
     "id": "lima-duarte",
-    "newId": "Lima Duarte"
+    "cityName": "Lima Duarte"
   },
   {
     "id": "pocos-de-caldas",
-    "newId": "Poços de Caldas"
+    "cityName": "Poços de Caldas"
   },
   {
     "id": "bicas",
-    "newId": "Bicas"
+    "cityName": "Bicas"
   },
   {
     "id": "alem-paraiba",
-    "newId": "Além Paraíba"
+    "cityName": "Além Paraíba"
   },
   {
     "id": "campanha",
-    "newId": "Campanha"
+    "cityName": "Campanha"
   },
   {
     "id": "poco-fundo",
-    "newId": "Poço Fundo"
+    "cityName": "Poço Fundo"
   },
   {
     "id": "pirauba",
-    "newId": "Pirajuba"
+    "cityName": "Pirajuba"
   },
   {
     "id": "aiuruoca",
-    "newId": "Aiuruoca"
+    "cityName": "Aiuruoca"
   },
   {
     "id": "mar-de-espanha",
-    "newId": "Mar de Espanha"
+    "cityName": "Mar de Espanha"
   },
   {
     "id": "caldas",
-    "newId": "Caldas"
+    "cityName": "Caldas"
   },
   {
     "id": "conceicao-do-rio-verde",
-    "newId": "Conceição do Rio Verde"
+    "cityName": "Conceição do Rio Verde"
   },
   {
     "id": "sao-goncalo-do-sapucai",
-    "newId": "São Gonçalo do Sapucaí"
+    "cityName": "São Gonçalo do Sapucaí"
   },
   {
     "id": "cambuquira",
-    "newId": "Cambuquira"
+    "cityName": "Cambuquira"
   },
   {
     "id": "baependi",
-    "newId": "Baependi"
+    "cityName": "Baependi"
   },
   {
     "id": "santa-rita-de-caldas",
-    "newId": "Santa Rita de Caldas"
+    "cityName": "Santa Rita de Caldas"
   },
   {
     "id": "caxambu",
-    "newId": "Caxambu"
+    "cityName": "Caxambu"
   },
   {
     "id": "lambari",
-    "newId": "Lambari"
+    "cityName": "Lambari"
   },
   {
     "id": "andradas",
-    "newId": "Andradas"
+    "cityName": "Andradas"
   },
   {
     "id": "silvianopolis",
-    "newId": "Silvianópolis"
+    "cityName": "Silvianópolis"
   },
   {
     "id": "latercia",
-    "newId": "Lavras"
+    "cityName": "Lavras"
   },
   {
     "id": "sao-lourenco",
-    "newId": "São Lourenço"
+    "cityName": "São Lourenço"
   },
   {
     "id": "pouso-alegre",
-    "newId": "Pouso Alegre"
+    "cityName": "Pouso Alegre"
   },
   {
     "id": "ouro-fino",
-    "newId": "Ouro Fino"
+    "cityName": "Ouro Fino"
   },
   {
     "id": "borda-da-mata",
-    "newId": "Borda da Mata"
+    "cityName": "Borda da Mata"
   },
   {
     "id": "santa-rita-do-sapucai",
-    "newId": "Santa Rita do Sapucaí"
+    "cityName": "Santa Rita do Sapucaí"
   },
   {
     "id": "itamonte",
-    "newId": "Itamonte"
+    "cityName": "Itamonte"
   },
   {
     "id": "jacutinga",
-    "newId": "Jacutinga"
+    "cityName": "Jacutinga"
   },
   {
     "id": "itanhandu",
-    "newId": "Itanhandu"
+    "cityName": "Itanhandu"
   },
   {
     "id": "cachoeira-de-minas",
-    "newId": "Cachoeira de Minas"
+    "cityName": "Cachoeira de Minas"
   },
   {
     "id": "passa-quatro",
-    "newId": "Passa Quatro"
+    "cityName": "Passa Quatro"
   },
   {
     "id": "monte-siao",
-    "newId": "Monte Sião"
+    "cityName": "Monte Sião"
   },
   {
     "id": "itajuba",
-    "newId": "Itajubá"
+    "cityName": "Itajubá"
   },
   {
     "id": "brasopolis",
-    "newId": "Brazópolis"
+    "cityName": "Brazópolis"
   },
   {
     "id": "bueno-brandao",
-    "newId": "Bueno Brandão"
+    "cityName": "Bueno Brandão"
   },
   {
     "id": "paraisopolis",
-    "newId": "Paraíso"
+    "cityName": "Paraíso"
   },
   {
     "id": "cambui",
-    "newId": "Cambuí"
+    "cityName": "Cambuí"
   },
   {
     "id": "camanducaia",
-    "newId": "Camanducaia"
+    "cityName": "Camanducaia"
   },
   {
     "id": "extrema",
-    "newId": "Extrema"
+    "cityName": "Extrema"
   },
   {
     "id": "bom-despacho",
-    "newId": "Bom Despacho"
+    "cityName": "Bom Despacho"
   },
   {
     "id": "curvelo",
-    "newId": "Curvelo"
+    "cityName": "Curvelo"
   },
   {
     "id": "uba",
-    "newId": "Ubá"
+    "cityName": "Ubá"
   }
 ]

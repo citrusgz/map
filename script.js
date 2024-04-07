@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const blockedRegions = ["st21", "st4"];
 
-  const cityNameElement = document.getElementById("cityName");
+  const cityNameSpan = document.getElementById("cityName");
 
   function definirOpacidadeMapa(opacity) {
     let todasAsRegioes = document.querySelectorAll("path");
@@ -58,11 +58,8 @@ document.addEventListener("DOMContentLoaded", function () {
       .then((cities) => {
         let itemEncontrado = cities.find((item) => item.id === idProcurado);
 
-        if (cityNameElement && itemEncontrado) {
-          cityNameElement.innerHTML =
-            "Para a cidade de: <span style='font-weight:bold;'>" +
-            itemEncontrado.newId +
-            "</span>";
+        if (itemEncontrado && cityNameSpan) {
+          cityNameSpan.innerText = itemEncontrado.cityName;
         }
       });
   }
