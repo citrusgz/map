@@ -1,7 +1,15 @@
 document.addEventListener("DOMContentLoaded", function () {
   const state = {
     citySelected: null,
+    changeStack: []
   };
+
+  class City {
+    constructor(id, originalColor){
+      this.id = id,
+      this.originalColor = originalColor
+    }
+  }
 
   const buttonBlue = document.getElementById("blueBtn");
 
@@ -71,10 +79,7 @@ document.addEventListener("DOMContentLoaded", function () {
     modal.removeAttribute("hidden");
   }
 
-  function pintarCidadeSelecionada(color) {
-    state.citySelected.target.style.fill = color;
-  }
-
+  
   function isButton(e) {
     return e.target.nodeName !== "BUTTON";
   }
@@ -103,19 +108,35 @@ document.addEventListener("DOMContentLoaded", function () {
       exibirCidadeSelecionada();
     }
   });
-  
+
   buttonBlue.addEventListener("click", () => {
+    insertIntoCitySelectedStack();
     pintarCidadeSelecionada("#0072bc");
     ocultarModal();
     definirOpacidadeMapa(1);
   });
 
   buttonRed.addEventListener("click", () => {
+    insertIntoCitySelectedStack();
     pintarCidadeSelecionada("#ed1c24");
     ocultarModal();
     definirOpacidadeMapa(1);
-
   });
+
+  function insertIntoCitySelectedStack() {
+
+    var estilosComputados = window.getComputedStyle(state.citySelected.target);
+
+    state.changeStack.unshift(new City(state.citySelected.target.attributes.id, estilosComputados.fill));
+
+    var estilosComputados = null;
+
+    console.log(state.changeStack);
+  }
+
+  function pintarCidadeSelecionada(color) {
+    state.citySelected.target.style.fill = color;
+  }
 
   document.addEventListener("keydown", function (event) {
     if (event.key === "Escape") {
