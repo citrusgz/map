@@ -39,6 +39,16 @@ window.addEventListener('mousemove', function (event) {
   translateX += deltaX;
   translateY += deltaY;
 
+  if(translateX >= 1000) {
+    translateX = 1000
+  } else if(translateX <= -1000) {
+    translateX = -1000
+  }else if(translateY >= 700) {
+    translateY = 700
+  } else if(translateY <= -700) {
+    translateY = -700
+  }
+
   // Aplica a transformação de translação e escala ao SVG
   svgWrapper.style.transform = `translate(${translateX}px, ${translateY}px) scale(${scale})`;
 
@@ -56,8 +66,6 @@ svgWrapper.addEventListener('wheel', function (event) {
   event.preventDefault();
 
   const direction = event.deltaY < 0 ? 1 : -1;
-
-  const zoomFactor = 1.1;
 
   scale += direction === 1 ? 1 : -1;
 
