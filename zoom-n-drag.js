@@ -1,10 +1,19 @@
 // Seleciona o contêiner do SVG
 const svgWrapper = document.getElementById('svg-wrapper');
+// Seleciona o botão de centralizar
+const centralizeButton = document.getElementById('centralize');
 
 // Variáveis para controlar o movimento do SVG
 let isDragging = false;
 let startX, startY, translateX = 0, translateY = 0;
 let scale = 1;
+
+// Adiciona um ouvinte de evento para o clique do botão
+centralizeButton.addEventListener('click', function () {
+  translateX = 0, translateY = 0;
+  scale = 1;
+  svgWrapper.style.transform = `translate(${translateX}px, ${translateY}px) scale(${scale})`;
+});
 
 let maxDraggingX = (svgWrapper.clientWidth / ((scale + 10) / 10)) - 200;
 let maxDraggingY = (svgWrapper.clientHeight / ((scale + 10) / 10)) - 200;
