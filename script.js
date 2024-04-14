@@ -15,9 +15,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const buttonRed = document.getElementById("redBtn");
 
-  const btnClearAll = document.getElementById("clearAll");
+  const btnClearAll = document.getElementById("btn-clear-all");
 
-  const btnUndo = document.getElementById("undo");
+  const btnUndo = document.getElementById("btn-undo");
 
   const modal = document.getElementById("button-wrapper");
 
