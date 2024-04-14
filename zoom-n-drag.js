@@ -6,11 +6,17 @@ let isDragging = false;
 let startX, startY, translateX = 0, translateY = 0;
 let scale = 1;
 
+let maxDraggingX = (svgWrapper.clientWidth / ((scale + 10) / 10)) - 200;
+let maxDraggingY = (svgWrapper.clientHeight / ((scale + 10) / 10)) - 200;
+
 // Adiciona um ouvinte de evento para pressionar o mouse
 svgWrapper.addEventListener('mousedown', function (event) {
   if (event.button === 1 || event.button === 2) {
     event.preventDefault();
-  
+
+    maxDraggingX = (svgWrapper.clientWidth / ((scale + 10) / 10)) - 200;
+    maxDraggingY = (svgWrapper.clientHeight / ((scale + 10) / 10)) - 200;
+
     // Atualiza o estado do movimento para true
     isDragging = true;
   
@@ -39,14 +45,14 @@ window.addEventListener('mousemove', function (event) {
   translateX += deltaX;
   translateY += deltaY;
 
-  if(translateX >= 1000) {
-    translateX = 1000
-  } else if(translateX <= -1000) {
-    translateX = -1000
-  }else if(translateY >= 700) {
-    translateY = 700
-  } else if(translateY <= -700) {
-    translateY = -700
+  if(translateX >= maxDraggingX) {
+    translateX = maxDraggingX
+  } else if(translateX <= -maxDraggingX) {
+    translateX = -maxDraggingX
+  }else if(translateY >= maxDraggingY) {
+    translateY = maxDraggingY
+  } else if(translateY <= -maxDraggingY) {
+    translateY = -maxDraggingY
   }
 
   // Aplica a transformação de translação e escala ao SVG
@@ -71,7 +77,7 @@ svgWrapper.addEventListener('wheel', function (event) {
 
   // Limita o zoom mínimo e máximo
   if (scale < 1) scale = 1;
-  if (scale > 5) scale = 5;
+  if (scale > 2) scale = 2;
 
   // Aplica a transformação de translação e escala ao SVG
   svgWrapper.style.transform = `translate(${translateX}px, ${translateY}px) scale(${scale})`;
