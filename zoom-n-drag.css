@@ -4,7 +4,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid red;
+  border: none;
+  box-shadow: 0px 0px 19px 12px rgba(0,0,0,0.1);
 }
 
 #svg-wrapper.grabbing {
@@ -21,5 +22,5 @@
   display: block;
   overflow-x: hidden;
   overflow-y: hidden;
-  max-height: calc(100vh - 2rem);
+  max-height: calc(100vh - 3rem);
 }
