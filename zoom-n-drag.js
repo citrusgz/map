@@ -8,7 +8,7 @@ let scale = 1;
 
 // Adiciona um ouvinte de evento para pressionar o mouse
 svgWrapper.addEventListener('mousedown', function (event) {
-  if (event.button === 1) {
+  if (event.button === 1 || event.button === 2) {
     event.preventDefault();
   
     // Atualiza o estado do movimento para true
@@ -45,6 +45,10 @@ window.addEventListener('mousemove', function (event) {
   // Atualiza as coordenadas iniciais do mouse
   startX = event.clientX;
   startY = event.clientY;
+});
+
+window.addEventListener('contextmenu', function(event) {
+  event.preventDefault();
 });
 
 // Adiciona um ouvinte de evento para a roda do mouse (zoom)
