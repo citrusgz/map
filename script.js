@@ -53,16 +53,10 @@ document.addEventListener("DOMContentLoaded", function () {
   function exibirCidadeSelecionada() {
     let idProcurado = state.citySelected.target.attributes.id.value;
 
-    const url = 'https://simple-market-backend-yrqj.onrender.com/cities';
-    fetch(url)
-      .then((response) => response.json())
-      .then((cities) => {
-        let itemEncontrado = cities.find((item) => item.id === idProcurado);
-
-        if (itemEncontrado && cityNameSpan) {
-          cityNameSpan.innerText = itemEncontrado.cityName;
-        }
-      });
+    let itemEncontrado = cities.find((item) => item.id === idProcurado);
+    if (itemEncontrado && cityNameSpan) {
+      cityNameSpan.innerText = itemEncontrado.cityName;
+    }
   }
 
   function isRegion(e) {
